@@ -23,5 +23,5 @@ public interface UserDao {
     public void findByName(User user);
    
    @Select("select username,password from user where username=#{username} ")
-   public User findByName(User,user);
+   public User findByName(User user);
 }
