@@ -21,5 +21,7 @@ public interface UserDao {
 
     @Select("select * from users where username=#{username}")
     public void findByName(User user);
-
+   
+   @Select("select username,password from user where username=#{username} ")
+   public User findByName(User,user);
 }
