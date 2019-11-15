@@ -18,4 +18,8 @@ public interface UserDao {
     public void updateUser(User user);
     @Delete("delect from users where id =#{id} ")
     public void deleteUser(Integer id);
+
+    @Select("select * from users where username=#{username}")
+    public void findByName(User user);
+
 }
