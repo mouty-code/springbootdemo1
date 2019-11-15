@@ -15,7 +15,13 @@ public interface CarService {
 
     public void addUser(User user);
 
-    public void updateUser(User user);
+    public void updateUser(Long id,User user);
 
     public void deleteUser(Integer id);
+
+    //开发者A新增方法
+    public void test001();
+
+    public void test003();
+
 }
