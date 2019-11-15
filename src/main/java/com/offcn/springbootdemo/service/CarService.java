@@ -19,9 +19,9 @@ public interface CarService {
 
     public void deleteUser(Integer id);
 
-    //开发者A新增方法
-    public void test001();
+    //开发者新增方法
+    public void test005();
 
-    public void test003();
+    public void test006();
 
 }
